@@ -2,3 +2,22 @@ Secret
 ======
 
 A POSIX utility to handle secrets using age encryption.
+
+Requirements
+------------
+
+- Age
+
+Installation
+------------
+
+	# make install
+
+Usage
+-----
+
+	$ secret [entry] [field]
+	$ secret -m entry
+	$ secret -n entry
+
+Read the secret(1) manpage for more detail.
